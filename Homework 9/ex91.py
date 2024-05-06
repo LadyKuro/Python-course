@@ -13,6 +13,5 @@ plt.plot(x, y3, 'b:', label='exp(-x)')
 plt.legend()
 plt.xlabel('x')
 plt.ylabel('y')
-plt.title('Plot of sin(x), cos(x), and exp(-x)')
 
 plt.show()
