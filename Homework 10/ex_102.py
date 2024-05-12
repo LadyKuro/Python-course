@@ -1,9 +1,7 @@
 import pandas as pd
 import numpy as np
 
-index = pd.date_range(start=pd.Timestamp('2024-05-01'), 
-                         end=pd.Timestamp('2024-05-31'), 
-                         freq='D')
+index = pd.date_range(start='2024-05-01', end='2024-05-31', freq='D')
 
 data = np.random.randn(len(index))
 
