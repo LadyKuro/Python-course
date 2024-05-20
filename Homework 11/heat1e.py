@@ -52,7 +52,8 @@ plt.imshow(u, cmap='hot', interpolation='nearest')
 #plt.imshow(u[:,::5], cmap='hot', interpolation='nearest')
 
 plt.colorbar()
-plt.show()
 plt.savefig("heat1e.png")
+plt.show()
+
 
 # EOF

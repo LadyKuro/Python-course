@@ -60,7 +60,8 @@ plt.imshow(u, cmap='hot', interpolation='nearest')
 #plt.imshow(u[:,::3], cmap='hot', interpolation='hamming')
 
 plt.colorbar()
-plt.show()
 plt.savefig("wave1b.png")
+plt.show()
+
 
 # EOF
